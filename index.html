@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buffet de abogados especializado en derecho corporativo, civil y familiar. Experiencia, profesionalismo y resultados.">
+    <title>Lexis Advocatus | Buffet de Abogados</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="45" height="45" viewBox="0 0 45 45" fill="none">
+                        <path d="M22.5 5L37.5 12V28L22.5 40L7.5 28V12L22.5 5Z" stroke="url(#gradient1)" stroke-width="2.5"/>
+                        <circle cx="22.5" cy="20" r="6" fill="url(#gradient1)"/>
+                        <defs>
+                            <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#c5a572;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">Lexis Advocatus</span>
+                    <span class="logo-tagline">Excelencia Legal</span>
+                </div>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto" class="btn-nav">Consulta Gratis</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070');">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="floating-elements">
+            <div class="float-element element-1"></div>
+            <div class="float-element element-2"></div>
+            <div class="float-element element-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span>🏆 Top 3 Firmas Legales CDMX 2024 - Revista Forbes</span>
+                </div>
+                <h1 class="fade-in-up">
+                    <span class="highlight-text">Lexis Advocatus</span> - Su Defensa Legal
+                    <span class="gradient-text">Estratégica</span>
+                </h1>
+                <p class="fade-in-up delay-1">Especialistas en derecho corporativo, civil y familiar con sede en Polanco. Más de 25 años resolviendo casos complejos con un enfoque personalizado y resultados medibles.</p>
+                <div class="hero-stats fade-in-up delay-2">
+                    <div class="hero-stat">
+                        <span class="stat-icon">⚖️</span>
+                        <div>
+                            <strong>98%</strong>
+                            <span>Casos Ganados</span>
+                        </div>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-icon">🏢</span>
+                        <div>
+                            <strong>500+</strong>
+                            <span>Empresas Atendidas</span>
+                        </div>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-icon">💰</span>
+                        <div>
+                            <strong>$2.5B</strong>
+                            <span>En Transacciones</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-buttons fade-in-up delay-3">
+                    <a href="#contacto" class="btn btn-primary">
+                        <span>Consulta Gratuita</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 10H15M15 10L10 5M15 10L10 15" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </a>
+                    <a href="#servicios" class="btn btn-secondary">
+                        <span>Ver Servicios</span>
+                    </a>
+                </div>
+                <div class="hero-trust fade-in-up delay-4">
+                    <div class="trust-images">
+                        <img src="https://i.pravatar.cc/50?img=1" alt="CEO TechCorp" loading="lazy">
+                        <img src="https://i.pravatar.cc/50?img=2" alt="Director Financiero" loading="lazy">
+                        <img src="https://i.pravatar.cc/50?img=3" alt="Empresaria" loading="lazy">
+                        <img src="https://i.pravatar.cc/50?img=4" alt="Inversionista" loading="lazy">
+                        <span class="trust-count">+500</span>
+                    </div>
+                    <p><strong>Empresarios líderes</strong> confían en nuestra asesoría estratégica</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon-wrapper">
+                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=200&h=200&fit=crop&crop=center" alt="Casos Corporativos" loading="lazy">
+                    </div>
+                    <div class="stat-number" data-target="847">0</div>
+                    <div class="stat-label">Casos Corporativos</div>
+                    <div class="stat-decoration"></div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon-wrapper">
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=200&h=200&fit=crop&crop=center" alt="Fusiones y Adquisiciones" loading="lazy">
+                    </div>
+                    <div class="stat-number" data-target="156">0</div>
+                    <div class="stat-label">M&A Completados</div>
+                    <div class="stat-decoration"></div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon-wrapper">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&h=200&fit=crop&crop=center" alt="Clientes Satisfechos" loading="lazy">
+                    </div>
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-label">% Satisfacción</div>
+                    <div class="stat-decoration"></div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=200&h=200&fit=crop&crop=center" alt="Equipo Legal" loading="lazy">
+                    </div>
+                    <div class="stat-number" data-target="28">0</div>
+                    <div class="stat-label">Abogados Senior</div>
+                    <div class="stat-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Servicios Especializados</span>
+                <h2>Expertise Legal <span class="gradient-text">de Alto Nivel</span></h2>
+                <p>Especialización en derecho corporativo, transacciones M&A, y asesoría estratégica para empresas en crecimiento y expansión internacional</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card featured">
+                    <div class="service-badge">Más Solicitado</div>
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&h=250&fit=crop&crop=center" alt="Derecho Corporativo" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                <path d="M15 20H35M15 25H35M15 30H25" stroke="currentColor" stroke-width="2"/>
+                                <rect x="10" y="10" width="30" height="30" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Derecho Corporativo & M&A</h3>
+                        <p>Especialistas en transacciones complejas, estructuración de empresas y asesoría estratégica para expansión nacional e internacional.</p>
+                        <ul class="service-features">
+                            <li>✓ Due Diligence Legal Completo</li>
+                            <li>✓ Fusiones y Adquisiciones (M&A)</li>
+                            <li>✓ Estructuración de Joint Ventures</li>
+                            <li>✓ Compliance Corporativo</li>
+                        </ul>
+                        <div class="service-stats">
+                            <span>156 M&A completados</span>
+                            <span>$2.5B en transacciones</span>
+                        </div>
+                        <a href="#contacto" class="service-link">Solicitar Consultoría →</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=600&h=250&fit=crop&crop=center" alt="Derecho Civil" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                <path d="M25 15L15 25L25 35M25 15L35 25L25 35" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Derecho Civil & Comercial</h3>
+                        <p>Representación especializada en disputas contractuales complejas, propiedad inmobiliaria y responsabilidad civil empresarial.</p>
+                        <ul class="service-features">
+                            <li>✓ Contratos Internacionales</li>
+                            <li>✓ Propiedad Intelectual</li>
+                            <li>✓ Responsabilidad Civil</li>
+                            <li>✓ Arbitraje Comercial</li>
+                        </ul>
+                        <div class="service-stats">
+                            <span>847 casos resueltos</span>
+                            <span>95% éxito</span>
+                        </div>
+                        <a href="#contacto" class="service-link">Consultar Caso →</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=600&h=250&fit=crop&crop=center" alt="Derecho Familiar" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                <circle cx="20" cy="20" r="8" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="32" cy="28" r="6" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Derecho Familiar & Patrimonial</h3>
+                        <p>Asesoría especializada en divorcios, planificación patrimonial, custodia y estructuras familiares complejas con enfoque discreto.</p>
+                        <ul class="service-features">
+                            <li>✓ Divorcios Express</li>
+                            <li>✓ Planificación Patrimonial</li>
+                            <li>✓ Custodia Internacional</li>
+                            <li>✓ Fideicomisos Familiares</li>
+                        </ul>
+                        <div class="service-stats">
+                            <span>Confidencialidad 100%</span>
+                            <span>Resolución ágil</span>
+                        </div>
+                        <a href="#contacto" class="service-link">Asesoría Privada →</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=600&h=250&fit=crop&crop=center" alt="Derecho Penal" loading="lazy">
+                        <div class="service-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                <path d="M15 35L25 15L35 35M18 28H32" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Derecho Penal Empresarial</h3>
+                        <p>Defensa especializada en delitos económicos, compliance penal y asesoría preventiva para empresas y ejecutivos.</p>
+                        <ul class="service-features">
+                            <li>✓ Delitos Económicos</li>
+                            <li>✓ Compliance Penal</li>
+                            <li>✓ Amparos Especializados</li>
+                            <li>✓ Asesoría Preventiva</li>
+                        </ul>
+                        <div class="service-stats">
+                            <span>Discreción absoluta</span>
+                            <span>Defensa 24/7</span>
+                        </div>
+                        <a href="#contacto" class="service-link">Defensa Inmediata →</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <div class="form-decoration"></div>
+                    <form class="contact-form" id="contactForm">
+                        <h3>Solicite su Consulta</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" required placeholder=" ">
+                                <label for="name">Nombre Completo</label>
+                                <span class="form-icon">👤</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="email" id="email" required placeholder=" ">
+                                <label for="email">Correo Electrónico</label>
+                                <span class="form-icon">✉️</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" id="phone" required placeholder=" ">
+                                <label for="phone">Teléfono</label>
+                                <span class="form-icon">📱</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <select id="service" required>
+                                    <option value="">Seleccione un servicio</option>
+                                    <option value="corporativo">Derecho Corporativo</option>
+                                    <option value="civil">Derecho Civil</option>
+                                    <option value="familiar">Derecho Familiar</option>
+                                    <option value="penal">Derecho Penal</option>
+                                    <option value="laboral">Derecho Laboral</option>
+                                    <option value="propiedad">Propiedad Intelectual</option>
+                                </select>
+                                <label for="service">Área de Interés</label>
+                                <span class="form-icon">⚖️</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <textarea id="message" rows="4" required placeholder=" "></textarea>
+                                <label for="message">Cuéntenos sobre su caso</label>
+                                <span class="form-icon">📝</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-form">
+                            <span>Enviar Consulta</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 10H15M15 10L10 5M15 10L10 15" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </button>
+                        <p class="form-privacy">🔒 Sus datos están protegidos y son confidenciales</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="proceso">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nuestro Proceso</span>
+                <h2>Cómo <span class="gradient-text">Trabajamos</span></h2>
+                <p>Un proceso transparente y eficiente diseñado para obtener los mejores resultados en cada caso</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=800&h=200&fit=crop&crop=center" alt="Consulta" loading="lazy">
+                        </div>
+                        <h3>Consulta Estratégica</h3>
+                        <p>Análisis profundo de su situación legal, evaluación de riesgos y oportunidades, y diseño de estrategia personalizada.</p>
+                    </div>
+                    <div class="step-line"></div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800&h=200&fit=crop&crop=center" alt="Estrategia" loading="lazy">
+                        </div>
+                        <h3>Desarrollo de Estrategia</h3>
+                        <p>Creación de un plan de acción detallado con cronograma, recursos necesarios y proyección de resultados.</p>
+                    </div>
+                    <div class="step-line"></div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=800&h=200&fit=crop&crop=center" alt="Ejecución" loading="lazy">
+                        </div>
+                        <h3>Ejecución Precisión</h3>
+                        <p>Implementación de la estrategia con seguimiento constante, comunicación transparente y ajustes estratégicos.</p>
+                    </div>
+                    <div class="step-line"></div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?q=80&w=800&h=200&fit=crop&crop=center" alt="Resultados" loading="lazy">
+                        </div>
+                        <h3>Resultados Excepcionales</h3>
+                        <p>Entrega de resultados superiores a las expectativas, seguimiento post-entrega y relación a largo plazo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="equipo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nuestro Equipo</span>
+                <h2>Líderes <span class="gradient-text">Jurídicos</span></h2>
+                <p>Expertos con trayectoria internacional y reconocimiento en sus especialidades</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&h=400&fit=crop&crop=center" alt="Dra. María Fernández" loading="lazy">
+                        <div class="member-overlay">
+                            <div class="member-social">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Email">✉</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Dra. María Fernández</h3>
+                        <p class="role">Socia Fundadora & CEO</p>
+                        <p class="specialty">Derecho Corporativo & M&A</p>
+                        <div class="member-stats">
+                            <span>🎓 Harvard Law School</span>
+                            <span>⚖️ 20 años experiencia</span>
+                            <span>🏆 Top 1% M&A México</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&h=400&fit=crop&crop=center" alt="Dr. Carlos Ramírez" loading="lazy">
+                        <div class="member-overlay">
+                            <div class="member-social">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Email">✉</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Dr. Carlos Ramírez</h3>
+                        <p class="role">Socio Senior</p>
+                        <p class="specialty">Derecho Penal Empresarial</p>
+                        <div class="member-stats">
+                            <span>🎓 UNAM + Columbia</span>
+                            <span>⚖️ 18 años experiencia</span>
+                            <span>🛡️ Especialista Compliance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&h=400&fit=crop&crop=center" alt="Lic. Ana Torres" loading="lazy">
+                        <div class="member-overlay">
+                            <div class="member-social">
+                                <a href="#" aria-label="LinkedIn">in</a>
+                                <a href="#" aria-label="Email">✉</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lic. Ana Torres</h3>
+                        <p class="role">Socia Senior</p>
+                        <p class="specialty">Derecho Familiar & Patrimonial</p>
+                        <div class="member-stats">
+                            <span>🎓 Ibero + NYU</span>
+                            <span>⚖️ 15 años experiencia</span>
+                            <span>💎 Especialista Patrimonial</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonios">
+        <div class="testimonials-bg">
+            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2000&h=800&fit=crop&crop=center" alt="Background" loading="lazy">
+            <div class="testimonials-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge light">Testimonios</span>
+                <h2>Lo Que Dicen Nuestros <span class="gradient-text">Clientes</span></h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p>Excelente servicio en nuestra fusión con TechCorp. Su expertise en M&A nos ahorró meses de negociación y millones en costos. La atención personalizada y disponibilidad 24/7 durante el proceso fue excepcional.</p>
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="client-info">
+                        <img src="https://i.pravatar.cc/100?img=12" alt="Roberto Sánchez" loading="lazy">
+                        <div>
+                            <h4>Roberto Sánchez</h4>
+                            <p>CEO, InnovateTech Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p>El equipo de Lexis Advocatus manejó mi divorcio con discreción absoluta. Como ejecutiva, necesitaba confidencialidad total y resolución rápida. Lograron un acuerdo favorable en tiempo récord manteniendo mi privacidad.</p>
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="client-info">
+                        <img src="https://i.pravatar.cc/100?img=5" alt="Patricia Gómez" loading="lazy">
+                        <div>
+                            <h4>Patricia Gómez</h4>
+                            <p>Directora Financiera, Grupo Empresarial</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p>Su conocimiento en derecho corporativo nos permitió expandirnos a 5 países en 18 meses. La estructuración legal fue impecable y nos evitó problemas regulatorios. Son verdaderos socios estratégicos.</p>
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="client-info">
+                        <img src="https://i.pravatar.cc/100?img=8" alt="Luis Martínez" loading="lazy">
+                        <div>
+                            <h4>Luis Martínez</h4>
+                            <p>Fundador, Global Ventures Inc</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="nav-btn prev">←</button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+                <button class="nav-btn next">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-header-left">
+                        <span class="section-badge">Contacto</span>
+                        <h2>Hablemos de Su <span class="gradient-text">Proyecto</span></h2>
+                        <p>Programe una consulta estratégica gratuita con nuestros especialistas y descubra cómo podemos maximizar sus resultados legales.</p>
+                    </div>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=200&h=200&fit=crop&crop=center" alt="Ubicación" loading="lazy">
+                            </div>
+                            <div>
+                                <h4>Oficina Principal</h4>
+                                <p>Av. Masaryk 111, Polanco<br>Ciudad de México, CP 11560</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Teléfonos Directos</h4>
+                                <p>+52 55 1234 5678 (M&A)<br>+52 55 8765 4321 (General)</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 22C17.5 22 22 17.5 22 12S17.5 2 12 2 2 6.5 2 12s4.5 10 10 10zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5zM12 6.5c2.33 0 4.31 1.46 5.11 3.5-1.05 2.77-3.73 4.5-6.89 4.5-3.17 0-5.84-1.73-6.89-4.5C6.69 7.96 8.67 6.5 12 6.5z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email Corporativo</h4>
+                                <p>contacto@lexisadvocatus.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-cta">
+                        <div class="cta-card">
+                            <h3>🎯 Consulta Estratégica</h3>
+                            <p>Primera consulta sin compromiso de 45 minutos</p>
+                        </div>
+                        <div class="cta-card">
+                            <h3>⚡ Respuesta Inmediata</h3>
+                            <p>Contestamos en menos de 2 horas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <div class="form-decoration"></div>
+                    <form class="contact-form" id="contactForm">
+                        <h3>Solicite su Consulta Estratégica</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" required placeholder=" ">
+                                <label for="name">Nombre Completo</label>
+                                <span class="form-icon">👤</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="email" id="email" required placeholder=" ">
+                                <label for="email">Correo Electrónico</label>
+                                <span class="form-icon">✉️</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" id="phone" required placeholder=" ">
+                                <label for="phone">Teléfono</label>
+                                <span class="form-icon">📱</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <select id="service" required>
+                                    <option value="">Seleccione un servicio</option>
+                                    <option value="corporativo">Derecho Corporativo & M&A</option>
+                                    <option value="civil">Derecho Civil & Comercial</option>
+                                    <option value="familiar">Derecho Familiar & Patrimonial</option>
+                                    <option value="penal">Derecho Penal Empresarial</option>
+                                    <option value="laboral">Derecho Laboral</option>
+                                    <option value="propiedad">Propiedad Intelectual</option>
+                                </select>
+                                <label for="service">Área de Interés</label>
+                                <span class="form-icon">⚖️</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <textarea id="message" rows="4" required placeholder=" "></textarea>
+                                <label for="message">Cuéntenos sobre su proyecto legal</label>
+                                <span class="form-icon">📝</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-form">
+                            <span>Enviar Consulta</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5 10H15M15 10L10 5M15 10L10 15" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </button>
+                        <p class="form-privacy">🔒 Sus datos están protegidos y son confidenciales</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>¿Necesita Asesoría Legal Inmediata?</h2>
+                    <p>No espere más. Nuestro equipo está listo para ayudarle a resolver su situación legal.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="tel:+525512345678" class="btn btn-primary">
+                        <span>Llamar Ahora</span>
+                        <span>📞</span>
+                    </a>
+                    <a href="#contacto" class="btn btn-secondary">Agendar Cita</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-col footer-about">
+                        <div class="logo">
+                            <div class="logo-icon">
+                                <svg width="45" height="45" viewBox="0 0 45 45" fill="none">
+                                    <path d="M22.5 5L37.5 12V28L22.5 40L7.5 28V12L22.5 5Z" stroke="url(#gradient2)" stroke-width="2.5"/>
+                                    <circle cx="22.5" cy="20" r="6" fill="url(#gradient2)"/>
+                                    <defs>
+                                        <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#c5a572;stop-opacity:1" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="logo-text">
+                                <span class="logo-main">Lexis Advocatus</span>
+                                <span class="logo-tagline">Excelencia Legal</span>
+                            </div>
+                        </div>
+                        <p>Más de 25 años protegiendo los derechos e intereses de nuestros clientes con profesionalismo, ética y dedicación absoluta.</p>
+                        <div class="footer-awards">
+                            <div class="award-badge">🏆 Top 10 México</div>
+                            <div class="award-badge">⭐ 5.0 Rating</div>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Enlaces Rápidos</h4>
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#proceso">Proceso</a></li>
+                            <li><a href="#equipo">Equipo</a></li>
+                            <li><a href="#testimonios">Testimonios</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#servicios">Derecho Corporativo</a></li>
+                            <li><a href="#servicios">Derecho Civil</a></li>
+                            <li><a href="#servicios">Derecho Familiar</a></li>
+                            <li><a href="#servicios">Derecho Penal</a></li>
+                            <li><a href="#servicios">Derecho Laboral</a></li>
+                            <li><a href="#servicios">Propiedad Intelectual</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Newsletter</h4>
+                        <p>Reciba actualizaciones legales y consejos útiles.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Su email">
+                            <button type="submit">→</button>
+                        </form>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                            <a href="#" aria-label="Facebook">f</a>
+                            <a href="#" aria-label="Twitter">𝕏</a>
+                            <a href="#" aria-label="Instagram">📷</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Lexis Advocatus. Todos los derechos reservados.</p>
+                    <div class="footer-links">
+                        <a href="#">Política de Privacidad</a>
+                        <a href="#">Términos y Condiciones</a>
+                        <a href="#">Aviso Legal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" stroke-width="2"/>
+        </svg>
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
