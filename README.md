@@ -1,4 +1,4 @@
-Página web para Bufete de Abogados "Justicia y Verdad"
+Página web para Bufete de Abogados
 
 Descripción:
 Este proyecto es una página informativa profesional diseñada para un bufete de abogados. Su objetivo es establecer una presencia en línea sólida y accesible para profesionales y empresas, mostrando servicios, experiencia y formas de contacto de manera clara y confiable.
